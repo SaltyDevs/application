@@ -1,19 +1,9 @@
 <resources>
-    <string name="app_name">Register</string>
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="username" />
-    <string name="action_sign_in_long" />
-    <string name="action_log_in_long" />
-    <string name="prompt_username">Username</string>
-    <string name="action_log_in_short" />
-    <string name="bottom_image" />
-    <string name="prompt_password_again">type your password again</string>
+    <string name="app_name">register_activity</string>
+    <string name="type_your_password">type your password</string>
+    <string name="type_your_password_again">type your password again</string>
+    <string name="nick_name">Nick name</string>
+    <string name="type_your_email">type your email</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
 </resources>

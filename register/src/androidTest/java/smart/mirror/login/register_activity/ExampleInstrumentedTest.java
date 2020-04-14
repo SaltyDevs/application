@@ -1,4 +1,4 @@
-package smart.mirror.login.register;
+package smart.mirror.login.register_activity;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("smart.mirror.login.register", appContext.getPackageName());
+        assertEquals("smart.mirror.login.register_activity", appContext.getPackageName());
     }
 }
