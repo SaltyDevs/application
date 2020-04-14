@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="weather"
+        android:title="Weather"></item>
+    <item
+        android:id="profile"
+        android:title="Profile"></item>
+    <item
+        android:id="connect"
+        android:title="Connect to the mirror"></item>
+    <item
+        android:id="common_questions"
+        android:title="Common questions and common answers"></item>
+    <item
+        android:id="about_us"
+        android:title="About us"></item>
+    <item
+        android:id="donate"
+        android:title="Donate"></item>
+
+
+</menu>
