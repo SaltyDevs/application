@@ -41,17 +41,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()){
+            case R.id.weather:
+                Toast.makeText(MainActivity.this, "Weather Selected", Toast.LENGTH_SHORT).show();
+                break;
             case R.id.profile:
-                Toast.makeText(MainActivity.this, "Profile Selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Profile us Selected", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.contact:
-                Toast.makeText(MainActivity.this, "Contact us Selected", Toast.LENGTH_SHORT).show();
+            case R.id.connect:
+                Toast.makeText(MainActivity.this, "Connect to the mirror Selected", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.about:
+            case R.id.common_questions:
+                Toast.makeText(MainActivity.this, "Common questions and common answers Selected", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.about_us:
                 Toast.makeText(MainActivity.this, "About us Selected", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.logout:
-                Toast.makeText(MainActivity.this, "Logout Selected", Toast.LENGTH_SHORT).show();
+            case R.id.donate:
+                Toast.makeText(MainActivity.this, "Donate Selected", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
