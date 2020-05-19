@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">delete</string>
+    <string name="app_name">slide_window</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -16,4 +16,29 @@
     <string name="menu_questions">Common questions</string>
     <string name="menu_about_us">About us</string>
     <string name="plaese_donate">plaese donate</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="nickname">NickName</string>
+    <string name="password">Password</string>
+    <string name="remember_me">remember me?</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="success">Success</string>
+    <string name="bottom_image" />
+    <string name="forgot_my_password">forgot my password</string>
+    <string name="register">Register</string>
+    <string name="nick_name" />
+    <string name="type_your_password" />
+    <string name="type_your_password_again" />
+    <string name="type_your_email" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipeLeft">swipe left to log in</string>
+    <string name="todo">TODO</string>
+    <string name="swipeRight">swipe right to register</string>
 </resources>

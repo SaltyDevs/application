@@ -6,13 +6,21 @@
     android:orientation="vertical"
     android:layout_height="300dp"
     android:background="@color/colorPrimaryDarkGrey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="238dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/toplogo" /><!-- ask about logo here-->
+    </LinearLayout>
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="238dp"
-        android:layout_height="49dp"
-        app:srcCompat="@drawable/toplogo" /><!-- ask about logo here-->
+
+
 
 
     <!-- maybe make frame or just underline-->
