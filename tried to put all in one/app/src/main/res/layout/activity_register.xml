@@ -129,48 +129,4 @@
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="482dp" />
 
-    <TextView
-        android:id="@+id/swipeLeft"
-        android:layout_width="219dp"
-        android:layout_height="37dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:text="@string/swipeLeft"
-        android:textColor="@color/colorPrimary"
-
-        android:textSize="23sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.637"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/register"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="36dp"
-        android:layout_height="34dp"
-        android:layout_above="@id/swipeLeft"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="1dp"
-        android:contentDescription="@string/todo"
-        android:src="@drawable/arrow_btm_left"
-        app:layout_constraintEnd_toStartOf="@+id/swipeLeft"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/register"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="252dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/transparent_button_shape"
-        android:text="@string/login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/register" />
 </androidx.constraintlayout.widget.ConstraintLayout>

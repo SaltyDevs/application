@@ -61,4 +61,6 @@
     <string name="log_out">Log out</string>
     <string name="add_new_device">Add new device</string>
     <string name="profile_settings">Profile settings</string>
+    <string name="log_in">Log in</string>
+
 </resources>

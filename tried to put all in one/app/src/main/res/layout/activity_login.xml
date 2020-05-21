@@ -157,19 +157,6 @@
         app:layout_constraintTop_toBottomOf="@+id/register"
         tools:ignore="MissingConstraints" />-->
 
-    <Button
-        android:id="@+id/swipRight"
-        android:layout_width="252dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="68dp"
-        android:background="@drawable/transparent_button_shape"
-        android:text="@string/register"
-        android:textColor="@color/colorAccent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/register" />
-
     <!--<Button
         android:id="@+id/register"
         android:layout_width="wrap_content"
