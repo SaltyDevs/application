@@ -13,7 +13,7 @@
             android:name=".SlideWindowActivity"
             android:label="@string/title_activity_slide_window"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisteringActivity" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />

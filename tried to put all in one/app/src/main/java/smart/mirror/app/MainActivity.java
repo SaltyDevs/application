@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openRegisterActivity() {
-        Intent register = new Intent(this, RegisterActivity.class);
+        Intent register = new Intent(MainActivity.this, RegisteringActivity.class);
         startActivity(register);
     }
 
     public void openLoginActivity(){
-        Intent login = new Intent(this, LoginActivity.class);
+        Intent login = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(login);
     }
 }
