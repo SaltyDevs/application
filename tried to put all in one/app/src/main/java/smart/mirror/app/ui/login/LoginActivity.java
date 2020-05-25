@@ -13,7 +13,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import smart.mirror.app.R;
-import smart.mirror.app.SlideWindowActivity;
+import smart.mirror.app.ui.news.NewsFragment;
+import smart.mirror.app.ui.news.NewsViewModel;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -35,10 +36,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(usernameEditText.getText().toString().equals("admin")&&
-                        passwordEditText.getText().toString().equals("password")){
-                    openActivitySlideDrawer();
+                        passwordEditText.getText().toString().equals("password")) {
+                    Intent news;
+                    news = new Intent(LoginActivity.this, NewsViewModel.class);
+                    startActivity(news);
                 }
-                else{//lod in failed
+
+                else{//log in failed
                     Toast.makeText(getBaseContext(), "Wrong username or password", Toast.LENGTH_LONG).show();
                     loginButton.setEnabled(true);
                 }
@@ -126,7 +130,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
-        // TODO : initiate successful logged in experience
+
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
     }
 
@@ -149,8 +153,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-    public void openActivitySlideDrawer() {
-        Intent intent = new Intent(this, SlideWindowActivity.class);
-        startActivity(intent);
+    public void openNewsActivity() {
+
     }
 }
