@@ -21,7 +21,7 @@ import smart.mirror.app.R;
 
 public class CustomiseViewModel extends Fragment {
 
-    @Override
+   /* @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_customise);//
@@ -64,7 +64,8 @@ public class CustomiseViewModel extends Fragment {
     }
 
     public void onNothingSelected(AdapterView<?> arg0) {
-        // TODO Auto-generated method stub
 
     }
+
+    */
 }
