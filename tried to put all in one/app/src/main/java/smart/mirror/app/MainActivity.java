@@ -11,7 +11,8 @@ import smart.mirror.app.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button start;
+    public Button login;
+    public Button register;
 
 
 
@@ -20,17 +21,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        start = findViewById(R.id.lets_start_btm);
-        start.setOnClickListener(new View.OnClickListener() {
+        login = findViewById(R.id.login);
+        register = findViewById(R.id.register);
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openLoginActivity();
             }
         });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegisterActivity();
+            }
+        });
+    }
+
+    private void openRegisterActivity() {
+        Intent register = new Intent(MainActivity.this, RegisteringActivity.class);
+        startActivity(register);
     }
 
     public void openLoginActivity(){
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
+        Intent login = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(login);
     }
 }

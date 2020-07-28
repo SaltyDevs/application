@@ -7,15 +7,29 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/login"
         android:layout_width="110dp"
         android:layout_height="40dp"
         android:gravity="center_horizontal"
-        android:text="lets start"
+        android:text="@string/log_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="Ganesh"
-        android:id="@+id/lets_start_btm"></Button>
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

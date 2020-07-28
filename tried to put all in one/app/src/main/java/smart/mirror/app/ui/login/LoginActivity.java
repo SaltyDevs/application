@@ -1,27 +1,20 @@
 package smart.mirror.app.ui.login;
 
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import smart.mirror.app.R;
-import smart.mirror.app.RegisterActivity;
+import smart.mirror.app.ui.news.NewsFragment;
+import smart.mirror.app.ui.news.NewsViewModel;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -37,9 +30,25 @@ public class LoginActivity extends AppCompatActivity {
         final EditText usernameEditText = findViewById(R.id.username);
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.register);
-        final Button swipe = findViewById(R.id.swipRight);
+        //Button swipe = findViewById(R.id.swipeRight);
 
-        loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(usernameEditText.getText().toString().equals("admin")&&
+                        passwordEditText.getText().toString().equals("password")) {
+                    Intent news;
+                    news = new Intent(LoginActivity.this, NewsViewModel.class);
+                    startActivity(news);
+                }
+
+                else{//log in failed
+                    Toast.makeText(getBaseContext(), "Wrong username or password", Toast.LENGTH_LONG).show();
+                    loginButton.setEnabled(true);
+                }
+            }
+        });
+        /*loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
             @Override
             public void onChanged(@Nullable LoginFormState loginFormState) {
                 if (loginFormState == null) {
@@ -105,22 +114,23 @@ public class LoginActivity extends AppCompatActivity {
 
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
+                openActivitySlideDrawer();
             }
         });
 
-       /* swipe.setOnClickListener(new View.OnClickListener() {
+       swipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivityRegister();
             }
         });
-
-        */
     }
+
+
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
-        // TODO : initiate successful logged in experience
+
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
     }
 
@@ -128,14 +138,22 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
     }
 
-    /*public void openActivityRegister(){
+    public void openActivityRegister(){
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
     }
 
-     */
+    public void openActivitySlideDrawer() {
+        Intent intent = new Intent(this, SlideWindowActivity.class);
+        startActivity(intent);
+    }
 
-    public void Ganesh(View view){
-        
+}     */
+    }
+
+
+
+    public void openNewsActivity() {
+
     }
 }
