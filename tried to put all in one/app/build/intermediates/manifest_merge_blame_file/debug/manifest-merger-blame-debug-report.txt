@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="smart.mirror.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:12:9-15:59
+21            android:name="smart.mirror.app.SlideWindowActivity"
+21-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:13:13-48
+22            android:label="@string/title_activity_slide_window"
+22-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:14:13-64
+23            android:theme="@style/AppTheme.NoActionBar" />
+23-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:15:13-56
+24        <activity android:name="smart.mirror.app.RegisteringActivity" />
+24-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:16:9-57
+24-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:16:19-54
+25        <activity
+25-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:17:9-19:60
+26            android:name="smart.mirror.app.ui.login.LoginActivity"
+26-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:18:13-51
+27            android:label="@string/title_activity_login" />
+27-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:19:13-57
+28        <activity android:name="smart.mirror.app.MainActivity" >
+28-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:20:9-26:20
+28-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:20:19-47
+29            <intent-filter>
+29-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:24:17-77
+32-->C:\Users\yuliy\Desktop\Smart Mirror\App\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+38            android:authorities="smart.mirror.app.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+41    </application>
+42
+43</manifest>
