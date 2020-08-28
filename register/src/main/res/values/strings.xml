@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">register_activity</string>
-    <string name="type_your_password">type your password</string>
-    <string name="type_your_password_again">type your password again</string>
-    <string name="nick_name">Nick name</string>
-    <string name="type_your_email">type your email</string>
-    <string name="register">Register</string>
-    <string name="todo">TODO</string>
-</resources>
