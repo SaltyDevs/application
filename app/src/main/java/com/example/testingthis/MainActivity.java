@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button continueWithGoogle = findViewById((R.id.btmContinueWithGoogle));
         CheckBox rememberMe = findViewById(R.id.checkBox);
         Button forgotPassword = findViewById(R.id.ForgotPasswordBTM);
+        Button btmRegister = findViewById(R.id.btmRegister);
         sigIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +59,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ForgotPasswordTypeEmail.class);
                 startActivity(intent);
+            }
+        });
+        btmRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+
             }
         });
     }

@@ -32,7 +32,7 @@ public class ForgotPasswordVerify extends AppCompatActivity {
         verifyNum3 = findViewById(R.id.verifyNum3);
         verifyNum4 = findViewById(R.id.verifyNum4);
         btmVerify = findViewById(R.id.btmVerify);
-        text2resendVerfication = findViewById(R.id.text2resendVerfication);
+        text2resendVerfication = findViewById(R.id.btm2resendVerfication);
 
         btmVerify.setOnClickListener(new View.OnClickListener() {
             @Override
