@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">testing this</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="action_log_in_short" />
+    <string name="prompt_password">type your password</string>
+    <string name="prompt_password_again">type your password again</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="bottom_image" />
+    <string name="gobacktologin">Log in</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="todo" />
+    <string name="forgot_my_password">Forgot my password</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="prompt_nickname" />
+</resources>
