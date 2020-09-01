@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="btmContinueWithGoogle" type="id" />
-    <item name="swipeLeft" type="id">swipe left to log in</item>
-    <item name="viewPager" type="id" />
-    <item name="activity_main_drawer" type="id" />
-</resources>
