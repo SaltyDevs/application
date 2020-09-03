@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf564f8-7206-43fa-b557-88fee204b53f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="54f0a9e0-a233-43e5-8753-11abcc4c6c4e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_24" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -22,10 +25,7 @@
       </state>
     </system>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1h0dsbutTWzPPnHjMmABneyYJbc" />
+  <component name="ProjectId" id="1h0elg66O0wKZdMjUZiZaj9kbfz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,9 +33,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/NavigationDrawer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\Desktop\Uni\Navigation_drawer\app\src\main\res\values" />
+      <recent name="C:\Users\yuliy\Desktop\Uni\Navigation_drawer\app\src\main\res\layout" />
+      <recent name="C:\Users\yuliy\Desktop\Uni\Navigation_drawer\app\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -102,18 +114,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cf564f8-7206-43fa-b557-88fee204b53f" name="Default Changelist" comment="" />
-      <created>1599152150720</created>
+      <changelist id="54f0a9e0-a233-43e5-8753-11abcc4c6c4e" name="Default Changelist" comment="" />
+      <created>1599152589482</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599152150720</updated>
+      <updated>1599152589482</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1599152442980">
+    <state x="159" y="73" key="#PSD" timestamp="1599152978305">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599152442980" />
+    <state x="159" y="73" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1599152978305" />
+    <state x="269" y="84" key="psd.add.library.dependency.panel.dimension" timestamp="1599152977229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="269" y="84" key="psd.add.library.dependency.panel.dimension/0.0.1280.680@0.0.1280.680" timestamp="1599152977229" />
   </component>
 </project>
