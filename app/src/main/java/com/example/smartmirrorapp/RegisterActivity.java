@@ -34,8 +34,53 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkDataEntered();
+<<<<<<< Updated upstream
                 Intent intent = new Intent(RegisterActivity.this, logedInUser.class);
                 startActivity(intent);
+=======
+                Intent intent = new Intent(RegisterActivity.this, BasicActivity.class);
+                startActivity(intent);
+                /*public void checkUsername() {
+                    boolean isValid = true;
+                    if (isEmpty(nickName)) {
+                        nickName.setError("You must enter username to login!");
+                        isValid = false;
+                    } else {
+                        if (!isEmail(nickName)) {
+                            nickName.setError("Enter valid email!");
+                            isValid = false;
+                        }
+                    }
+
+                    if (isEmpty(password)) {
+                        password.setError("You must enter password to login!");
+                        isValid = false;
+                    } else {
+                        if (password.getText().toString().length() < 4) {
+                            password.setError("Password must be at least 4 chars long!");
+                            isValid = false;
+                        }
+                    }
+
+                    //check email and password
+                    //IMPORTANT: here should be call to backend or safer function for local check; For example simple check is cool
+                    //For example simple check is cool
+                    if (isValid) {
+                        String usernameValue = nickName.getText().toString();
+                        String passwordValue = password.getText().toString();
+                        if (usernameValue.equals("test@test.com") && passwordValue.equals("password1234")) {
+                            //everything checked we open new activity
+                            Intent i = new Intent(MainActivity.this, RegisterActivity.class);
+                            startActivity(i);
+                            //we close this activity
+                            this.finish();
+                        } else {
+                            Toast t = Toast.makeText(this, "Wrong email or password!", Toast.LENGTH_SHORT);
+                            t.show();
+                        }
+                    }
+                }*/
+>>>>>>> Stashed changes
             }
         });
 

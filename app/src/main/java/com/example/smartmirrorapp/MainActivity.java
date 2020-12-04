@@ -32,7 +32,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (nickName.getText().toString().equals("me") && password.getText().toString().equals("1")){
 
+<<<<<<< Updated upstream
                     Intent intent = new Intent(MainActivity.this, logedInUser.class);
+=======
+                    Intent intent = new Intent(MainActivity.this, BasicActivity.class);
+>>>>>>> Stashed changes
                     startActivity(intent);
                 }
                 else{
@@ -58,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< Updated upstream
                 //Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
                 //startActivity(intent);
                public void checkUsername() {
@@ -112,4 +117,12 @@ public class MainActivity extends AppCompatActivity {
         CharSequence str = text.getText().toString();
         return TextUtils.isEmpty(str);
     }
+=======
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+>>>>>>> Stashed changes
 }

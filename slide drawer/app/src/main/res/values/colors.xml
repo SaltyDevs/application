@@ -5,4 +5,8 @@
     <color name="colorPrimaryDarkGrey">#D31F1E23</color>
     <color name="colorAccent">#6264D5</color>
     <color name="black">#000000</color>
+<<<<<<< Updated upstream:slide drawer/app/src/main/res/values/colors.xml
 </resources>
+=======
+</resources>
+>>>>>>> Stashed changes:app/src/main/res/values/colors.xml
