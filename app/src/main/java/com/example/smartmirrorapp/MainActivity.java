@@ -32,11 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (nickName.getText().toString().equals("me") && password.getText().toString().equals("1")){
 
-<<<<<<< Updated upstream
-                    Intent intent = new Intent(MainActivity.this, logedInUser.class);
-=======
                     Intent intent = new Intent(MainActivity.this, BasicActivity.class);
->>>>>>> Stashed changes
                     startActivity(intent);
                 }
                 else{
@@ -62,67 +58,10 @@ public class MainActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< Updated upstream
-                //Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-                //startActivity(intent);
-               public void checkUsername() {
-                    boolean isValid = true;
-                    if (isEmpty(nickName)) {
-                        nickName.setError("You must enter username to login!");
-                        isValid = false;
-                    } else {
-                        if (!isEmail(nickName)) {
-                            nickName.setError("Enter valid email!");
-                            isValid = false;
-                        }
-                    }
-
-                    if (isEmpty(password)) {
-                        password.setError("You must enter password to login!");
-                        isValid = false;
-                    } else {
-                        if (password.getText().toString().length() < 4) {
-                            password.setError("Password must be at least 4 chars long!");
-                            isValid = false;
-                        }
-                    }
-
-                    //check email and password
-                    //IMPORTANT: here should be call to backend or safer function for local check; For example simple check is cool
-                    //For example simple check is cool
-                    if (isValid) {
-                        String usernameValue = nickName.getText().toString();
-                        String passwordValue = password.getText().toString();
-                        if (usernameValue.equals("test@test.com") && passwordValue.equals("password1234")) {
-                            //everything checked we open new activity
-                            Intent i = new Intent(MainActivity.this, RegisterActivity.class);
-                            startActivity(i);
-                            //we close this activity
-                            this.finish();
-                        } else {
-                            Toast t = Toast.makeText(this, "Wrong email or password!", Toast.LENGTH_SHORT);
-                            t.show();
-                        }
-                    }
-                }
-            }
-        });
-    }
-    boolean isEmail(EditText text) {
-        CharSequence email = text.getText().toString();
-        return (!TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
-    }
-
-    boolean isEmpty(EditText text) {
-        CharSequence str = text.getText().toString();
-        return TextUtils.isEmpty(str);
-    }
-=======
                 Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
         });
     }
 
->>>>>>> Stashed changes
 }

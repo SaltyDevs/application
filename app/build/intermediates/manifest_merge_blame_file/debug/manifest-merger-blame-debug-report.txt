@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.2] C:\Users\yuliy\.gradle\caches\transforms-2\files-2.1\119fff995aec02e3f7a8fd27b32771f1\core-1.3.2\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:7:9-43
@@ -27,24 +27,24 @@
 18-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:10:9-35
 19        android:theme="@style/AppTheme" >
 19-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.smartmirrorapp.menu.FAQ" />
-20-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:12:9-55
-20-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:12:19-43
-21        <activity android:name="com.example.smartmirrorapp.menu.AboutUs" />
-21-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:13:9-50
-21-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:13:19-47
-22        <activity android:name="com.example.smartmirrorapp.menu.Notifications" />
-22-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:14:9-56
-22-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:14:19-53
-23        <activity android:name="com.example.smartmirrorapp.menu.News" />
-23-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:15:9-47
-23-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:15:19-44
-24        <activity android:name="com.example.smartmirrorapp.menu.Music" />
-24-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:16:9-48
-24-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:16:19-45
-25        <activity android:name="com.example.smartmirrorapp.menu.Settings" />
-25-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:17:9-51
-25-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:17:19-48
+20        <activity android:name="com.example.smartmirrorapp.menu.FAQFragment" />
+20-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:12:9-63
+20-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:12:19-51
+21        <activity android:name="com.example.smartmirrorapp.menu.AboutUsFragment" />
+21-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:13:9-58
+21-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:13:19-55
+22        <activity android:name="com.example.smartmirrorapp.menu.NotificationsFragment" />
+22-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:14:9-64
+22-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:14:19-61
+23        <activity android:name="com.example.smartmirrorapp.menu.NewsFragment" />
+23-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:15:9-55
+23-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:15:19-52
+24        <activity android:name="com.example.smartmirrorapp.menu.MusicFragment" />
+24-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:16:9-56
+24-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:16:19-53
+25        <activity android:name="com.example.smartmirrorapp.menu.SettingsFragment" />
+25-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:17:9-59
+25-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:17:19-56
 26        <activity android:name="com.example.smartmirrorapp.BasicActivity" />
 26-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:18:9-51
 26-->C:\Users\yuliy\Desktop\Uni\deal with this\smartMirrorApp\app\src\main\AndroidManifest.xml:18:19-48

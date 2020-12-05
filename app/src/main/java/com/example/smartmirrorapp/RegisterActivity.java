@@ -34,10 +34,6 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkDataEntered();
-<<<<<<< Updated upstream
-                Intent intent = new Intent(RegisterActivity.this, logedInUser.class);
-                startActivity(intent);
-=======
                 Intent intent = new Intent(RegisterActivity.this, BasicActivity.class);
                 startActivity(intent);
                 /*public void checkUsername() {
@@ -80,7 +76,6 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     }
                 }*/
->>>>>>> Stashed changes
             }
         });
 
