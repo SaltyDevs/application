@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    tools:ignore="InvalidNavigation,UnusedNavigation">
+
+    <fragment
+        android:id="@+id/news"
+        android:name="smart.mirror.app.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news"/>
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="smart.mirror.app.ui.music.MusicFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/notification"
+        android:name="smart.mirror.app.ui.notification.NotificationFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/customise"
+        android:name="smart.mirror.app.ui.settings.SettingsFragment"
+        android:label="@string/menu_customise"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
